@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.TodoApp.controller;
 
 import java.util.Collections;
 import java.util.List;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.service.TodoService;
-import com.example.model.Todo;
+import com.example.TodoApp.service.TodoService;
+import com.example.TodoApp.model.Todo;
 
 @Controller
 public class TodoController {

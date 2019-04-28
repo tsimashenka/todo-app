@@ -1,12 +1,12 @@
-package com.example.service;
+package com.example.TodoApp.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.repository.TodoRepository;
-import com.example.model.Todo;
+import com.example.TodoApp.repository.TodoRepository;
+import com.example.TodoApp.model.Todo;
 
 @Service
 public class TodoService {

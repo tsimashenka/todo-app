@@ -1,4 +1,4 @@
-package com.example.repository;
+package com.example.TodoApp.repository;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.example.model.Todo;
+import com.example.TodoApp.model.Todo;
 
 @Repository
 public interface TodoRepository extends JpaRepository<Todo, Serializable> {

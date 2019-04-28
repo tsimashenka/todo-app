@@ -1,4 +1,4 @@
-package com.example;
+package com.example.TodoApp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.model.Todo;
-import com.example.service.TodoService;
+import com.example.TodoApp.model.Todo;
+import com.example.TodoApp.service.TodoService;
 
 @Component
 public class initData {
