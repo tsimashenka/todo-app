@@ -20,12 +20,11 @@ public interface TodoRepository extends JpaRepository<Todo, Serializable> {
 
     @Modifying
     @Transactional
-    @Query("update Todo t set t.title = :title AND t.description = :description "
-    + "where t.id = :id")
+    @Query("UPDATE Todo t SET t.description = :description, t.title = :title WHERE t.id = :id")
 
     int updateTodo(
         @Param("id") Long id,
-        @Param("title") String title,
-        @Param("description") String description
+        @Param("description") String description,
+        @Param("title") String title
     );
 }
